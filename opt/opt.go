@@ -6,6 +6,7 @@ type ByteCount int
 
 // Boolean flag types with constants
 type QuietFlag bool
+
 const (
 	Quiet   QuietFlag = true
 	NoQuiet QuietFlag = false
